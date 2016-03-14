@@ -1,0 +1,280 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.top{
+	background-color: #000000;
+	height: 142px;
+}
+.top1{
+	width: 970px;
+	height: 140px;
+	/*background-color: #f00;*/
+	margin: 0 auto;
+}
+.top11 img{
+	float: left;
+	margin-top: 25px;
+}
+.top11 h3{
+	float: left;
+	font-size: 50px;
+	font-family: Tahoma;
+	margin-top: 48px;
+	color: white;
+	margin-left: 15px;
+}
+.top11 h3 span{
+	color: #d33800;
+}
+.top12{
+	float: right;
+}
+.top12 li{
+	list-style: none;
+	float: left;
+	padding-left: 18px;
+	font-family: Tahoma;
+	font-size: 17px;
+	margin-top: 70px;
+	color: white;
+}
+.top12 li span{
+	color: #d33800;
+}
+.banner{
+	background-image:url(images/10.gif);
+	background-repeat: repeat-x;
+	height: 350px;
+}
+.banner1{
+	width: 970px;
+	height: 350px;
+	/*background-color: #0f0;*/
+	margin: 0 auto;
+	position: relative;
+}
+.banner11{
+	width: 590px;
+	float: left;
+}
+.banner11 h3{
+	font-family: Tahoma;
+	font-size: 30px;
+	color: white;
+	padding-top: 65px;
+}
+.banner11 p{
+	line-height: 25px;
+	font-family: Tahoma;
+	font-size: 15px;
+	padding-top: 29px;
+	color: white;
+}
+.banner11 p span{
+	color: #d33800;
+	border-bottom: 1px solid #d33800;
+}
+.banner11 img{
+	padding-top: 25px;
+}
+.banner12 img{
+	float: left;
+	position: absolute;
+	top: -35px;
+	left: 620px;
+}
+#container{
+	background-image:url(images/11.gif);
+	background-repeat: repeat-x;
+	height: 893px;
+}
+.container1{
+	width: 942px;
+	height: 895px;
+	/*background-color: #00f;*/
+	margin: 0 auto;
+}
+.container11{
+	/*background-color: #0ff;*/
+	width: 945px;
+	height:260px;
+
+}
+.container11 img{
+	float: left;
+	padding-left: 10px;
+	padding-top: 40px;
+}
+.container12{
+	clear: both;
+	/*background-color: #f00;*/
+	width: 945px;
+	height: 318px;
+}
+.container121{
+	clear: both;
+	/*background-color: #0f0;*/
+	width: 600px;
+	height: 318px;
+	float: left;
+}
+.container1211{
+	width: 603px;
+	height: 60px;
+	/*background-color: #cccccc;*/
+}
+.container1211 h3{
+	color: white;
+	font-family: Tahoma;
+	font-size: 30px;
+	line-height: 60px;
+
+}
+.container1212{
+	/*background-color: #ff0;*/
+	width: 603px;
+	height:160px;
+}
+.container12121 p{
+	/*float: left;*/
+	font-size: 12px;
+	color: #cccccc;
+	font-family: Tahoma;
+	line-height: 23px;
+	color: #7f7d75;
+}
+.container12121 p span{
+	color: white;
+}
+#duanluo{
+	padding-top: 20px;
+	padding-left: 80px;
+}
+.container1212 img{
+	float: left;
+	padding-right: 18px;
+}
+.container1213 img{
+	padding-left: 80px;
+	padding-top: 25px;
+}
+.container122{
+	/*background-color: #ffffff;*/
+	height: 318px;
+	width: 340px;
+	float: left;
+}
+.container1221 {
+	/*background-color: #f00;*/
+	width: 340px;
+	height: 49px;
+}
+.container1221 img{
+	float: right;
+}
+.container1222 {
+	/*background-color: #0f0;*/
+	height: 223px;
+	width: 340px;
+	margin-top: 30px;
+}
+.container1222 li{
+	padding-left: 48px;
+	border-bottom: 1px solid #3c3c3d;
+	line-height: 30px;
+	list-style-position: inside;
+	list-style-image: url("images/15.gif");
+	font-family: Tahoma;
+	font-size: 14px;
+	color: white;
+}
+.container13{
+	width: 942px;
+	height: 320px;
+	/*background-color: #f00;*/
+}
+.container131{
+	width: 622px;
+	height: 323px;
+	/*background-color: #0f0;*/
+	float: left;
+}
+.container132{
+	width: 320px;
+	height: 323px;
+	/*background-color: #ff0;*/
+	float: left;
+}
+.container1311{
+	width: 622px;
+	height: 220px;
+	/*background-color: #f00;*/
+}
+.container13111 img{
+	float: left;
+	padding-top: 30px;
+	margin-right: 20px;
+}
+.container13112 img{
+	float: left;
+	padding-top: 29px;
+}
+.container13113{
+	width: 300px;
+	height: 220px;
+	/*background-color: #00f;*/
+	float: right;
+	padding-top: 20px;
+}
+.container13113 p{
+	/*float: left;*/
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #7f7d75;
+	line-height: 25px;
+}
+.container13113 p span{
+	color: white;
+}
+.container1312 img{
+	padding-left: 80px;
+}
+.container132 img{
+	padding-top: 30px;
+	padding-left: 20px;
+}
+#footer{
+	background-image:url(images/12.gif);
+	background-repeat: repeat-x;
+	height: 151px;
+}
+.footer1{
+	width: 685px;
+	height: 151px;
+	/*background-color: #ff0;*/
+	margin: 0 auto;
+}
+.footer11{
+	float: left;
+}
+.footer11 p{
+	font-family: Tahoma;
+	font-size: 15px;
+	color: #7f7d7a;
+}
+.yi{
+	padding-top: 35px;
+}
+.er{
+	line-height: 25px;
+}
+.er span{
+	color: #d33800;
+}
+.footer12 img{
+	float: right;
+	padding-top: 50px;
+}
+
+

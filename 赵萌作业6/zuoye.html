@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>滚轴效果</title>
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	#box{
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+	}
+	#bigbox li{
+		float: left;
+		width: 200px;
+		height: 200px;
+		list-style: none;
+	}
+	#bigbox{
+		width: 1000px;
+		height: 200px;
+	}
+	.btn li{
+		height: 20px;
+		width: 20px;
+		list-style: none;
+		border: 1px solid #00f;
+		text-align: center;
+		line-height:20px;
+		float: left;
+		cursor: pointer;
+	}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<ul id="bigbox">
+			<li class="box1">
+				<img src="images/1.jpg">
+			</li>
+			<li class="box2">
+				<img src="images/2.jpg">
+			</li>
+			<li class="box3">
+				<img src="images/3.jpg">
+			</li>
+			<li class="box4">
+				<img src="images/4.jpg">
+			</li>
+		</ul>
+	</div>
+	<ul class="btn">
+		<li class="list1">1</li>
+		<li class="list2">2</li>
+		<li class="list3">3</li>
+		<li class="list4">4</li>
+	</ul>
+
+
+
+
+<script type="text/javascript" src="jquery-1.11.1.js"></script>
+<script type="text/javascript">
+	$(".btn li").click(function(){
+			var index = $(this).index();
+			var marLeft = -200 * index;
+			$("#bigbox").animate({"margin-left":marLeft},1000);
+		})
+
+
+
+</script>	
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>xuanxiangka</title>
+	<STYLE TYPE="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		#list{
+			width: 200px;
+			height: 30px;
+			background-color: #f00;
+			cursor: pointer;
+		}
+		#list li{
+			height: 30px;
+			line-height: 30px;
+			list-style:none;
+			float: left;
+			padding-left: 16px;
+			border: 1px solid #00f;
+		}
+		#listyi{
+			list-style: none;
+		}
+		.list4{
+			width: 200px;
+			height: 30px;
+			background-color: #ff0;
+			display: none;
+		}
+		.list5{
+			width: 200px;
+			height: 30px;
+			background-color: #00f;
+			display: none;
+		}
+		.list6{
+			width: 200px;
+			height: 30px;
+			background-color: #0ff;
+			display: none;
+		}
+
+
+
+
+	</STYLE>
+</head>
+<body>
+	<ul id="list">
+		<li class="list1">选卡一</li>
+		<li class="list2">选卡二</li>
+		<li class="list3">选卡三</li>
+	</ul>
+	<ul id="listyi">
+		<li class="list4">内容一</li>
+		<li class="list5">内容二</li>
+		<li class="list6">内容三</li>
+	</ul>
+<script type="text/javascript" src="jquery-1.11.1.js"></script>
+<script type="text/javascript">
+	$("#list li").click(function(){
+		var x = $(this).index();
+		$("#listyi li").eq(x).css("display","block").siblings().css("display","none");
+	})
+
+
+
+</script>	
+</body>
+</html>

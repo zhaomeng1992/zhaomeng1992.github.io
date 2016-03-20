@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>下拉菜单</title>
+	<style type="text/css">
+	  *{
+	  	margin: 0px;
+	  	padding: 0px;
+	  }
+	  #box{
+	  	width: 200px;
+	  	height: 30px;
+	  	background-color: #cccccc;
+	  	margin: 0 auto;
+	  }
+	  #boxyi{
+	  	width: 50px;
+	  	float: left;	
+	  }
+	  #boxyi a{
+	  	line-height: 30px;
+	  }
+	  .yi li{
+			list-style: none;
+	  }
+	  .yi li a{
+	  	   	display: none;
+	  	   	padding-top: 10px;
+	  }
+	  #boxer{
+	  	width: 50px;
+	  	float: right;
+	  }
+	  #boxer a{
+	  	line-height: 30px;
+	  }
+	  .er li{
+	  	list-style:none;
+	  }
+	  .er li a{
+	  		display: none;
+	  		padding-top: 10px;
+	  }
+	</style>
+</head>
+<body>
+	<div id="box">
+		<div id="boxyi">
+			<a href="">视频</a>
+			<ul class="yi">
+				<li><a href="">动漫</a></li>
+				<li><a href="">电视剧</a></li>
+				<li><a href="">电影</a></li>
+			</ul>
+		</div>
+		<div id="boxer">
+			<a href="">新闻</a>
+			<ul class="er">
+				<li><a href="">娱乐</a></li>
+				<li><a href="">政治</a></li>
+				<li><a href="">焦点</a></li>
+			</ul>
+	</div>
+	
+
+
+<script type="text/javascript" src="jquery-1.11.1.js"></script>
+<script type="text/javascript">
+	 $("#boxyi a").mouseenter(function(){
+	 	 $(".yi a").stop().slideDown(3000)
+	 });
+	 $("#boxyi a").mouseleave(function(){
+	 	  $(".yi a").stop().slideUp(3000)
+	 });
+	 $("#boxer a").mouseenter(function(){
+	 	 $(".er a").stop().slideDown(3000)
+	 });
+	 $("#boxer a").mouseleave(function(){
+	 	  $(".er a").stop().slideUp(3000)
+	 });
+
+</script>
+</body>
+</html>
